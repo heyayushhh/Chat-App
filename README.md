@@ -1,42 +1,33 @@
-# ✨ Full Stack Realtime Chat App ✨
+# 💬 Chat App
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
+A full-featured real-time chat application built using the **MERN Stack**, **Socket.io**, **TailwindCSS**, and **Daisy UI**.
 
-[Video Tutorial on Youtube](https://youtu.be/ntKkVrQqBYY)
+---
 
-Highlights:
+## 🔥 Highlights
 
-- 🌟 Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI
-- 🎃 Authentication && Authorization with JWT
-- 👾 Real-time messaging with Socket.io
-- 🚀 Online user status
-- 👌 Global state management with Zustand
-- 🐞 Error handling both on the server and on the client
-- ⭐ At the end Deployment like a pro for FREE!
-- ⏳ And much more!
+- 🌟 **Tech stack**: MERN + Socket.io + TailwindCSS + Daisy UI  
+- 🎃 **Authentication & Authorization** using JWT  
+- 👾 **Real-time messaging** with Socket.io  
+- 🚀 **Online user status** tracking  
+- 👌 **Global state management** with Zustand  
+- 🐞 **Robust error handling** on both client & server  
+- ⭐ **Free deployment** like a pro  
+- ⏳ ...and much more!
 
-### Setup .env file
+---
 
-```js
-MONGODB_URI=...
+## ⚙️ Setup `.env` file
+
+Create a `.env` file in your root directory with the following variables:
+
+```env
+MONGODB_URI=your_mongo_db_connection_string
 PORT=5001
-JWT_SECRET=...
+JWT_SECRET=your_jwt_secret_key
 
-CLOUDINARY_CLOUD_NAME=...
-CLOUDINARY_API_KEY=...
-CLOUDINARY_API_SECRET=...
+CLOUDINARY_CLOUD_NAME=your_cloudinary_name
+CLOUDINARY_API_KEY=your_cloudinary_api_key
+CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 
 NODE_ENV=development
-```
-
-### Build the app
-
-```shell
-npm run build
-```
-
-### Start the app
-
-```shell
-npm start
-```
